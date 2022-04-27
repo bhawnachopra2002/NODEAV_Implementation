@@ -1,4 +1,5 @@
 # NodeAV_Implementation
+This is a course project for Software and Data Engineering course (2022).<br/>
 This tool can be used to detect atomicity violations in nodejs application. It first
 generates an execution trace of application with async_hooks and njstrace to get information
 about asynchronous events. Then using defined rules, a happens-before graph is created among events by using the execution trace. Then from the graph we can see the events which violate atomicity constraint. <br/>
