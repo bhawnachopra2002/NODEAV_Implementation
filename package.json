@@ -1,0 +1,24 @@
+{
+  "name": "project_assembly",
+  "version": "1.0.0",
+  "description": "SDE Course proj assembly trial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dagrejs/graphlib": "^2.1.4",
+    "extend": "^3.0.2",
+    "falafel": "^2.2.4",
+    "graphviz": "0.0.9",
+    "hasha": "^5.2.2",
+    "idgen": "^2.1.0",
+    "lodash": "^4.17.21",
+    "mkdirp": "^1.0.4",
+    "spawn-wrap": "^2.0.0",
+    "string-sanitizer": "^2.0.2",
+    "yargs": "^8.0.0"
+  }
+}

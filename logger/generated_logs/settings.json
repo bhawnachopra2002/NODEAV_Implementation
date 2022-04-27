@@ -1,0 +1,5 @@
+[
+    "**/*.js",
+    "!**/node_modules/**",
+    "!to_test/archive_like_test/archive-like-test.js"
+]
