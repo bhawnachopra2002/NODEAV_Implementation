@@ -18,8 +18,8 @@ function reduceGraph(asyncObjects, relations) {
     let lennew= newObjs.length
     while(u<lennew){
         u++;
-        for (let j = i + 1; j < newObjs.length; j++) {
-            let oi = newObjs[i];
+        for (let j = u + 1; j < newObjs.length; j++) {
+            let oi = newObjs[u];
             let oj = newObjs[j];
             if (!nr.happensBefore(oi.id, oj.id) && !nr.happensBefore(oj.id, oi.id)) {  
                 if (relations.hBGraphLib(oi.id, oj.id))
